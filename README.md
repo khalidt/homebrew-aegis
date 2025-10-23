@@ -7,3 +7,11 @@ This tap allows you to install **Aegis.app** directly via Homebrew.
 ```bash
 brew tap khalidt/aegis
 brew install --cask aegis
+```
+---
+## Uninstall
+```bash
+brew uninstall --cask aegis
+```
+
+---
