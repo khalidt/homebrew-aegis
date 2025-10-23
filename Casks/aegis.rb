@@ -7,7 +7,7 @@ cask "aegis" do
   name "Aegis"
   desc "Aegis is a modern macOS desktop application that provides secure end-to-end message encryption using a hybrid RSA-AES design."
   homepage "https://github.com/khalidt/Aegis"
-
+  depends_on macos: ">= :sonoma"
   app "Aegis.app"
 
 end
